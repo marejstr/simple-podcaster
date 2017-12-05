@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_podcasts"
+            android:icon="@drawable/ic_mic_black_24dp"
+            android:title="Podcasts"/>
+        <item
+            android:id="@+id/nav_queue"
+            android:icon="@drawable/ic_queue_music_black_24dp"
+            android:title="Queue" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Add Podcast" />
+
+    <item android:title="Episode lists">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:title="All" />
+            <item
+                android:id="@+id/nav_fav"
+                android:title="Favourites" />
+            <item
+                android:id="@+id/nav_down"
+                android:title="Downloaded" />
+            <item
+                android:id="@+id/nav_not_list"
+                android:title="Not listened" />
+            <item
+                android:id="@+id/nav_user_list"
+                android:title="User list" />
+            <item
+                android:id="@+id/nav_new_list"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="Make new list" />
+        </menu>
+    </item>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+</menu>
